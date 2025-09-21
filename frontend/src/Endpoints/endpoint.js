@@ -1,1 +1,20 @@
-// aqui van los endpoints
+export const ENDPOINTS = "http://localhost:3000"
+
+ export const URL_cursos = "/cursos"
+ export const URL_curso = "/cursos"
+ export const URL_crear_Curso = "/cursos"
+ export const URL_actualizarCurso = "/cursos/:id"
+ export const URL_eliminarCurso = "/cursos/:id"
+ 
+ export const URL_estudiantes = "/estudiantes"
+ export const URL_estudiante = "/estudiantes"
+ export const URL_crear_Estudiante = "/estudiantes"
+ export const URL_actualizarEstudiante = "/estudiantes/:id"
+ export const URL_eliminarEstudiante = "/estudiantes/:id"
+
+ export const URL_inscripciones = "/inscripciones"
+ export const URL_inscripcion = "/inscripciones"
+ export const URL_crear_Inscripcion = "/inscripciones"
+ export const URL_eliminarInscripcion = "/inscripciones/:id"
+ export const URL_inscripcionesPorEstudiante = "/inscripciones/estudiante/:idEstudiante"
+ export const URL_inscripcionesPorCurso = "/inscripciones/curso/:idCurso"

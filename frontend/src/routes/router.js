@@ -1,0 +1,5 @@
+export const Home = "/"
+export const home = "http://localhost:3000"
+export const cursos = "http://localhost:3000/cursos"
+export const estudiantes = "http://localhost:3000/estudiantes"
+export const inscripciones = "http://localhost:3000/inscripciones"
